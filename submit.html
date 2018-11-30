@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Text Gradients</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+ 
+    <style>
+    body {
+	
+        background: #292929;
+        padding: 1em;
+    }
+     
+    h1 {
+        position: relative;
+        font-size: 70px;
+        margin-top: 0;
+        font-family: 'Lobster', helvetica, arial;
+    }
+     
+    h1 a {
+        text-decoration: none;
+        color: #666;
+        position: absolute;
+         
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+    }
+     
+    h1:after {
+        content : 'We will answer your query';
+        color: #d6d6d6;
+        text-shadow: 0 1px 0 white;
+    }
+	
+	.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    </style>
+</head>
+<body>
+<h1> <a href="#"> We will answer your query</a> </h1>
+
+<img src= "D:\E-drive\xampp\htdocs\assignment\ty.gif" width = "750" height = "300" class="center" />
+
+     
+</body>
+</html>
